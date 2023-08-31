@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color and font color */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the CV container */
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header section */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Style the sections */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the contact information */
+.contact ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact li {
+  margin-bottom: 5px;
+}
+
+/* Style the skills section */
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills li {
+  margin-bottom: 5px;
+}
+
+/* Add more specific styling as needed */
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .cv-container {
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  .section h2 {
+    font-size: 20px;
+  }
+}
